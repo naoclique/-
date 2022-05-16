@@ -58,7 +58,7 @@ body {
 }
 
 .bg-universo {
-  background-image: url('https://imagine.gsfc.nasa.gov/hst_bday/images/april-16-2019-veil-nebula.jpg');
+  background-image: url('bg-universo.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
