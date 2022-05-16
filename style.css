@@ -1,0 +1,73 @@
+html, body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  text-align: center;
+  color: whitesmoke;
+  background-color: rgb(17, 17, 17);
+  transition: .7s;
+}
+
+.secao {
+  padding: 10px 20px;
+  height: 100vh;
+  position: relative;
+}
+
+.botao {
+  background-color: rgb(133, 67, 209);
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.692);
+  font-weight: bold;
+  padding: 10px 20px;
+  max-width: 80%;
+  border-radius: 10px;
+  font-size: 0.7em;
+  transition: .3s;
+}
+
+.botao.-redondo {
+  border-radius: 100px;
+  margin-top: 5px;
+  width: 100px;
+  height: 10px;
+}
+
+.botao:hover {
+  transform: translateY(-0.5vh) scale(1.1);
+}
+
+.conteudo {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#pedido {
+  display: none;
+  font-size: 32px;
+}
+
+.bg-universo {
+  background-image: url('https://imagine.gsfc.nasa.gov/hst_bday/images/april-16-2019-veil-nebula.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.emoji {
+  font-size: 1.4em;
+}
+
+.botoes {
+  margin-top: 10px;
+}
